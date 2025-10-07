@@ -1,0 +1,9 @@
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/uninstall.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/mav_comm_uninstall.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/test.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/edit_cache.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/rebuild_cache.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/list_install_components.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/install.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/install/local.dir
+/home/palash/pico_ws/build/mav_comm/CMakeFiles/install/strip.dir

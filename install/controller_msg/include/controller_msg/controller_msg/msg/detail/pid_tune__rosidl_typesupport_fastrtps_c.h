@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/controller_msg/rosidl_typesupport_fastrtps_c/controller_msg/msg/detail/pid_tune__rosidl_typesupport_fastrtps_c.h

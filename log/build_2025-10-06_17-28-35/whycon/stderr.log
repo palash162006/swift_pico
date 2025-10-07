@@ -1,0 +1,45 @@
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:[m[K In member function ‘[01m[Kbool whycon::CircleDetector::examineCircle(const cv::Mat&, whycon::CircleDetector::Circle&, int, float, bool)[m[K’:
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:207:197:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kelse[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  207 | .x << " " << circle.y << " " << circle.size << " " << areaRatio)[01;35m[K;[m[K
+      |                                                                 [01;35m[K^[m[K
+
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:209:100:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kelse[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  209 | e enough (" << circle.size << "/" << parameters.min_size << ")")[01;35m[K;[m[K
+      |                                                                 [01;35m[K^[m[K
+
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:[m[K In member function ‘[01m[Kwhycon::CircleDetector::Circle whycon::CircleDetector::detect(const cv::Mat&, bool&, const whycon::CircleDetector::Circle&)[m[K’:
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:454:65:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kelse[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  454 |   else WHYCON_DEBUG("detected at " << inner.x << " " << inner.y)[01;35m[K;[m[K
+      |                                                                 [01;35m[K^[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:454:3:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  454 |   [01;35m[Kelse[m[K WHYCON_DEBUG("detected at " << inner.x << " " << inner.y);
+      |   [01;35m[K^~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/circle_detector.cpp:455:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+  455 |         [01;36m[Kreturn[m[K inner;
+      |         [01;36m[K^~~~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/many_circle_detector.cpp:[m[K In member function ‘[01m[Kbool whycon::ManyCircleDetector::detect(const cv::Mat&, bool, int, int)[m[K’:
+[01m[K/home/palash/pico_ws/src/whycon/src/lib/many_circle_detector.cpp:34:107:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+   34 |         if (refine_counter > 0) WHYCON_DEBUG("refining step " << refine_counter << "/" << refine_max_step)[01;35m[K;[m[K
+      |                                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:10[m[K:
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.hpp:[m[K In constructor ‘[01m[Kwhycon::WhyConROS::WhyConROS()[m[K’:
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.hpp:43:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kwhycon::WhyConROS::should_reset[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   43 |       bool is_tracking, [01;35m[Kshould_reset[m[K;
+      |                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.hpp:31:31:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krclcpp::Node::SharedPtr whycon::WhyConROS::node_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 |       rclcpp::Node::SharedPtr [01;35m[Knode_handle[m[K;
+      |                               [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:12:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   12 | [01;35m[Kwhycon[m[K::WhyConROS::WhyConROS() : Node("whycon"), is_tracking(false), should_reset(true),node_handle(std::shared_ptr<WhyConROS>(this, [](auto *) {})), it(node_handle)
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:[m[K In member function ‘[01m[Kvoid whycon::WhyConROS::reset(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:89:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   89 | void whycon::WhyConROS::reset([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K, std::shared_ptr<std_srvs::srv::Empty::Response> response)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/palash/pico_ws/src/whycon/src/ros2/whycon_ros.cpp:89:141:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   89 | void whycon::WhyConROS::reset(const std::shared_ptr<std_srvs::srv::Empty::Request> request, [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |                                                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

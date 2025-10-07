@@ -1,0 +1,156 @@
+[0.033s] Invoking command in '/home/palash/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake /home/palash/pico_ws/src/controller_tuner/error_msg -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/error_msg
+[0.047s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.271s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.273s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.279s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.689s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.291s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.325s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.325s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.368s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.382s] -- Added test 'lint_cmake' to check CMake code style
+[1.382s] -- Added test 'xmllint' to check XML markup files
+[1.386s] -- Configuring done
+[1.433s] -- Generating done
+[1.444s] -- Build files have been written to: /home/palash/pico_ws/build/error_msg
+[1.462s] Invoked command in '/home/palash/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake /home/palash/pico_ws/src/controller_tuner/error_msg -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/error_msg
+[1.466s] Invoking command in '/home/palash/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/palash/pico_ws/build/error_msg -- -j16 -l16
+[1.518s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_generator_c[0m
+[1.534s] [  9%] Built target error_msg__cpp
+[1.534s] [ 12%] Built target error_msg__rosidl_generator_c
+[1.546s] [ 12%] Built target ament_cmake_python_symlink_error_msg
+[1.549s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_cpp[0m
+[1.550s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_introspection_c[0m
+[1.551s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_fastrtps_c[0m
+[1.551s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.552s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_c[0m
+[1.556s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_introspection_cpp[0m
+[1.566s] [ 38%] Built target error_msg__rosidl_typesupport_introspection_c
+[1.566s] [ 41%] Built target error_msg__rosidl_typesupport_c
+[1.566s] [ 41%] Built target error_msg__rosidl_typesupport_fastrtps_c
+[1.567s] [ 51%] Built target error_msg__rosidl_typesupport_fastrtps_cpp
+[1.567s] [ 61%] Built target error_msg__rosidl_typesupport_cpp
+[1.573s] [ 70%] Built target error_msg__rosidl_typesupport_introspection_cpp
+[1.601s] [ 70%] Built target error_msg
+[1.630s] [ 74%] Built target error_msg__py
+[1.642s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_generator_py[0m
+[1.661s] [ 80%] Built target error_msg__rosidl_generator_py
+[1.674s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_c__pyext[0m
+[1.674s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_introspection_c__pyext[0m
+[1.675s] [35m[1mConsolidate compiler generated dependencies of target error_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.691s] [100%] Built target error_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.691s] [100%] Built target error_msg__rosidl_typesupport_c__pyext
+[1.691s] [100%] Built target error_msg__rosidl_typesupport_introspection_c__pyext
+[1.809s] running egg_info
+[1.809s] writing error_msg.egg-info/PKG-INFO
+[1.810s] writing dependency_links to error_msg.egg-info/dependency_links.txt
+[1.810s] writing top-level names to error_msg.egg-info/top_level.txt
+[1.814s] reading manifest file 'error_msg.egg-info/SOURCES.txt'
+[1.815s] writing manifest file 'error_msg.egg-info/SOURCES.txt'
+[1.846s] [100%] Built target ament_cmake_python_build_error_msg_egg
+[1.859s] Invoked command in '/home/palash/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/palash/pico_ws/build/error_msg -- -j16 -l16
+[1.861s] Invoking command in '/home/palash/pico_ws/build/error_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/palash/pico_ws/build/error_msg
+[1.870s] -- Install configuration: ""
+[1.870s] -- Execute custom install script
+[1.870s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/ament_index/resource_index/rosidl_interfaces/error_msg
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__functions.h
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__struct.h
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__type_support.h
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/error.h
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_generator_c__visibility_control.h
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/library_path.sh
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/library_path.dsv
+[1.871s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__builder.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__struct.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__traits.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__type_support.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/error.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.872s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_introspection_c.h
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/include/error_msg/error_msg/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/pythonpath.sh
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/pythonpath.dsv
+[1.873s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg-0.0.0-py3.10.egg-info/top_level.txt
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/__init__.py
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_c.c
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/_error_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.874s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/liberror_msg__rosidl_generator_py.so
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/__init__.py
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/_error.py
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg/_error_s.c
+[1.875s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/error_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/msg/Error.idl
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/msg/Error.msg
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/ament_index/resource_index/package_run_dependencies/error_msg
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/ament_index/resource_index/parent_prefix_path/error_msg
+[1.876s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/ament_prefix_path.sh
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/ament_prefix_path.dsv
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/path.sh
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/environment/path.dsv
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/local_setup.bash
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/local_setup.sh
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/local_setup.zsh
+[1.877s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/local_setup.dsv
+[1.877s] -- Symlinking: /home/palash/pico_ws/install/error_msg/share/error_msg/package.dsv
+[1.888s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/ament_index/resource_index/packages/error_msg
+[1.888s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msgConfig.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msgConfig-version.cmake
+[1.889s] -- Up-to-date symlink: /home/palash/pico_ws/install/error_msg/share/error_msg/package.xml
+[1.889s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_c.so
+[1.889s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_c.so
+[1.890s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.890s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_c.so
+[1.890s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_c.so
+[1.890s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_introspection_cpp.so
+[1.890s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_typesupport_cpp.so
+[1.926s] Listing '/home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg'...
+[1.926s] Compiling '/home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/__init__.py'...
+[1.926s] Listing '/home/palash/pico_ws/install/error_msg/local/lib/python3.10/dist-packages/error_msg/msg'...
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/lib/liberror_msg__rosidl_generator_py.so
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cExport.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cExport-noconfig.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_cppExport.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.931s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cExport.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cppExport.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/error_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_pyExport.cmake
+[1.932s] -- Up-to-date: /home/palash/pico_ws/install/error_msg/share/error_msg/cmake/export_error_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.935s] Invoked command in '/home/palash/pico_ws/build/error_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/palash/pico_ws/build/error_msg

@@ -1,0 +1,3 @@
+/home/palash/pico_ws/install/whycon/lib/libwhycon.so
+/home/palash/pico_ws/install/whycon/share/whycon/cmake/export_whyconExport.cmake
+/home/palash/pico_ws/install/whycon/share/whycon/cmake/export_whyconExport-noconfig.cmake

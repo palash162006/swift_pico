@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/whycon/ament_cmake_environment_hooks/local_setup.sh

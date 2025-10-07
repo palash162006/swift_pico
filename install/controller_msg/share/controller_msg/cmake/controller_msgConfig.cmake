@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/controller_msg/ament_cmake_core/controller_msgConfig.cmake

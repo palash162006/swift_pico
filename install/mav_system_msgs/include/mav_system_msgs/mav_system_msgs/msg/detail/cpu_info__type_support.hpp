@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_system_msgs/rosidl_generator_cpp/mav_system_msgs/msg/detail/cpu_info__type_support.hpp

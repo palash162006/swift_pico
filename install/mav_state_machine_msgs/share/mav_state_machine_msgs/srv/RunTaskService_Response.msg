@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_state_machine_msgs/rosidl_cmake/srv/RunTaskService_Response.msg

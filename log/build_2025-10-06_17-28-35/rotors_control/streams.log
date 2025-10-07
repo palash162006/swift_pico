@@ -1,0 +1,84 @@
+[0.039s] Invoking command in '/home/palash/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/palash/pico_ws/src/rotors_simulator/rotors_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/rotors_control
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.298s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.456s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.629s] -- Detecting CXX compiler ABI info - done
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.641s] -- Detecting CXX compile features
+[0.641s] -- Detecting CXX compile features - done
+[0.648s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.336s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.420s] -- Found mav_msgs: 3.3.3 (/home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake)
+[1.502s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.512s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.532s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.789s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.880s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.889s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.136s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.199s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.321s] -- Looking for pthread.h
+[2.532s] -- Looking for pthread.h - found
+[2.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.774s] -- Found Threads: TRUE  
+[2.860s] -- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+[2.901s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.136s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.138s] -- Configured cppcheck include dirs: /home/palash/pico_ws/src/rotors_simulator/rotors_control/include
+[3.138s] -- Configured cppcheck exclude dirs and/or files: 
+[3.140s] -- Added test 'lint_cmake' to check CMake code style
+[3.143s] -- Added test 'uncrustify' to check C / C++ code style
+[3.144s] -- Configured uncrustify additional arguments: 
+[3.145s] -- Added test 'xmllint' to check XML markup files
+[3.153s] -- Configuring done
+[3.185s] -- Generating done
+[3.196s] -- Build files have been written to: /home/palash/pico_ws/build/rotors_control
+[3.242s] Invoked command in '/home/palash/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/palash/pico_ws/src/rotors_simulator/rotors_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/rotors_control
+[3.247s] Invoking command in '/home/palash/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/palash/pico_ws/build/rotors_control -- -j16 -l16
+[3.396s] [ 25%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o[0m
+[22.153s] [ 50%] [32m[1mLinking CXX static library libroll_pitch_yawrate_thrust_controller.a[0m
+[22.303s] [ 50%] Built target roll_pitch_yawrate_thrust_controller
+[22.330s] [ 75%] [32mBuilding CXX object CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/src/nodes/roll_pitch_yawrate_thrust_controller_node.cpp.o[0m
+[38.790s] [100%] [32m[1mLinking CXX executable roll_pitch_yawrate_thrust_controller_node[0m
+[39.628s] [100%] Built target roll_pitch_yawrate_thrust_controller_node
+[39.644s] Invoked command in '/home/palash/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/palash/pico_ws/build/rotors_control -- -j16 -l16
+[39.646s] Invoking command in '/home/palash/pico_ws/build/rotors_control': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/palash/pico_ws/build/rotors_control
+[39.655s] -- Install configuration: ""
+[39.655s] -- Execute custom install script
+[39.656s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/lib/rotors_control/roll_pitch_yawrate_thrust_controller_node
+[39.670s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.sh
+[39.683s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/library_path.dsv
+[39.696s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/ament_index/resource_index/package_run_dependencies/rotors_control
+[39.709s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/ament_index/resource_index/parent_prefix_path/rotors_control
+[39.722s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.sh
+[39.735s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/ament_prefix_path.dsv
+[39.745s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/path.sh
+[39.758s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/environment/path.dsv
+[39.770s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/local_setup.bash
+[39.783s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/local_setup.sh
+[39.796s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/local_setup.zsh
+[39.809s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/local_setup.dsv
+[39.819s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/package.dsv
+[39.832s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/ament_index/resource_index/packages/rotors_control
+[39.845s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.857s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/cmake/ament_cmake_export_libraries-extras.cmake
+[39.869s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake
+[39.884s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/cmake/rotors_controlConfig-version.cmake
+[39.897s] -- Symlinking: /home/palash/pico_ws/install/rotors_control/share/rotors_control/package.xml
+[39.909s] -- Installing: /home/palash/pico_ws/install/rotors_control/lib/libroll_pitch_yawrate_thrust_controller.a
+[39.914s] -- Installing: /home/palash/pico_ws/install/rotors_control/include/rotors_control
+[39.914s] -- Installing: /home/palash/pico_ws/install/rotors_control/include/rotors_control/parameters.hpp
+[39.914s] -- Installing: /home/palash/pico_ws/install/rotors_control/include/rotors_control/common.hpp
+[39.914s] -- Installing: /home/palash/pico_ws/install/rotors_control/include/rotors_control/parameters_ros.hpp
+[39.914s] -- Installing: /home/palash/pico_ws/install/rotors_control/include/rotors_control/roll_pitch_yawrate_thrust_controller.hpp
+[39.917s] Invoked command in '/home/palash/pico_ws/build/rotors_control' returned '0': CMAKE_PREFIX_PATH=/home/palash/pico_ws/install/mav_msgs:/home/palash/pico_ws/install/whycon:/home/palash/pico_ws/install/swift_pico:/home/palash/pico_ws/install/swift_pico_description:/home/palash/pico_ws/install/rotors_swift_interface:/home/palash/pico_ws/install/swift_msgs:/home/palash/pico_ws/install/rotors_swift_gazebo:/home/palash/pico_ws/install/rotors_swift_description:/home/palash/pico_ws/install/rotors_control:/home/palash/pico_ws/install/pid_tune:/home/palash/pico_ws/install/mav_comm:/home/palash/pico_ws/install/mav_system_msgs:/home/palash/pico_ws/install/mav_state_machine_msgs:/home/palash/pico_ws/install/mav_planning_msgs:/home/palash/pico_ws/install/error_msg:/home/palash/pico_ws/install/controller_msg:/home/palash/Downloads/turtlesim_ws/install/turtlesim:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble LD_LIBRARY_PATH=/home/palash/pico_ws/install/mav_msgs/lib:/home/palash/pico_ws/install/whycon/lib:/home/palash/pico_ws/install/swift_msgs/lib:/home/palash/pico_ws/install/rotors_control/lib:/home/palash/pico_ws/install/mav_system_msgs/lib:/home/palash/pico_ws/install/mav_state_machine_msgs/lib:/home/palash/pico_ws/install/mav_planning_msgs/lib:/home/palash/pico_ws/install/error_msg/lib:/home/palash/pico_ws/install/controller_msg/lib:/home/palash/Downloads/turtlesim_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/palash/pico_ws/build/rotors_control

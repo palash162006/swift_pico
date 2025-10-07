@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_msgs/rosidl_generator_c/mav_msgs/msg/detail/status__functions.h

@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/swift_msgs/ament_cmake_environment_hooks/pythonpath.sh

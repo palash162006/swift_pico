@@ -1,0 +1,9 @@
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/uninstall.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/rotors_swift_description_uninstall.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/test.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/edit_cache.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/rebuild_cache.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/list_install_components.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/install.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/install/local.dir
+/home/palash/pico_ws/build/rotors_swift_description/CMakeFiles/install/strip.dir

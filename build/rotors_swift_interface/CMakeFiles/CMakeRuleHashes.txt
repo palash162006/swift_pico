@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+6fdd4e7d3e3b6e1d3ae90e2208b8e702 CMakeFiles/rotors_swift_interface_uninstall

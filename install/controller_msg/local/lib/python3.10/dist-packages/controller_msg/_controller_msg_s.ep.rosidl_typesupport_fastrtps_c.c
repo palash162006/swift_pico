@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/controller_msg/rosidl_generator_py/controller_msg/_controller_msg_s.ep.rosidl_typesupport_fastrtps_c.c

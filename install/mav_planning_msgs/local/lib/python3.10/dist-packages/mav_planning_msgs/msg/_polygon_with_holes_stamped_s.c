@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_planning_msgs/rosidl_generator_py/mav_planning_msgs/msg/_polygon_with_holes_stamped_s.c

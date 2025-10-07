@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/error_msg/ament_cmake_environment_hooks/local_setup.sh

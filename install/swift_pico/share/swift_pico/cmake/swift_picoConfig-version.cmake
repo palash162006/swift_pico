@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/swift_pico/ament_cmake_core/swift_picoConfig-version.cmake

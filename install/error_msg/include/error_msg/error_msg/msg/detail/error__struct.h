@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/error_msg/rosidl_generator_c/error_msg/msg/detail/error__struct.h

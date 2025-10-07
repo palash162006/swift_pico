@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/rotors_swift_gazebo/ament_cmake_core/rotors_swift_gazeboConfig.cmake

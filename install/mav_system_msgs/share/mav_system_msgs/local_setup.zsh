@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_system_msgs/ament_cmake_environment_hooks/local_setup.zsh

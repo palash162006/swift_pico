@@ -1,0 +1,282 @@
+[0.044s] Invoking command in '/home/palash/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake /home/palash/pico_ws/src/mav_comm/mav_msgs -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/mav_msgs
+[0.065s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.231s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.293s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.338s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.357s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.578s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.990s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.735s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.757s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.757s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.758s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.812s] -- Configuring done
+[1.859s] -- Generating done
+[1.872s] -- Build files have been written to: /home/palash/pico_ws/build/mav_msgs
+[1.882s] Invoked command in '/home/palash/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake /home/palash/pico_ws/src/mav_comm/mav_msgs -DCMAKE_INSTALL_PREFIX=/home/palash/pico_ws/install/mav_msgs
+[1.884s] Invoking command in '/home/palash/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/palash/pico_ws/build/mav_msgs -- -j16 -l16
+[1.937s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_generator_c[0m
+[1.949s] [  1%] Built target mav_msgs__cpp
+[1.951s] [ 12%] Built target mav_msgs__rosidl_generator_c
+[1.958s] [ 12%] Built target ament_cmake_python_symlink_mav_msgs
+[1.965s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.966s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_cpp[0m
+[1.966s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.967s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_c[0m
+[1.967s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.970s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_introspection_c[0m
+[1.981s] [ 28%] Built target mav_msgs__rosidl_typesupport_c
+[1.981s] [ 44%] Built target mav_msgs__rosidl_typesupport_cpp
+[1.981s] [ 47%] Built target mav_msgs__rosidl_typesupport_introspection_cpp
+[1.983s] [ 58%] Built target mav_msgs__rosidl_typesupport_fastrtps_cpp
+[1.984s] [ 77%] Built target mav_msgs__rosidl_typesupport_introspection_c
+[1.984s] [ 81%] Built target mav_msgs__rosidl_typesupport_fastrtps_c
+[2.009s] [ 81%] Built target mav_msgs
+[2.038s] [ 82%] Built target mav_msgs__py
+[2.052s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_generator_py[0m
+[2.072s] [ 93%] Built target mav_msgs__rosidl_generator_py
+[2.083s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.084s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_c__pyext[0m
+[2.084s] [35m[1mConsolidate compiler generated dependencies of target mav_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.100s] [100%] Built target mav_msgs__rosidl_typesupport_c__pyext
+[2.100s] [100%] Built target mav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.100s] [100%] Built target mav_msgs__rosidl_typesupport_introspection_c__pyext
+[2.196s] running egg_info
+[2.197s] writing mav_msgs.egg-info/PKG-INFO
+[2.197s] writing dependency_links to mav_msgs.egg-info/dependency_links.txt
+[2.197s] writing top-level names to mav_msgs.egg-info/top_level.txt
+[2.200s] reading manifest file 'mav_msgs.egg-info/SOURCES.txt'
+[2.200s] writing manifest file 'mav_msgs.egg-info/SOURCES.txt'
+[2.229s] [100%] Built target ament_cmake_python_build_mav_msgs_egg
+[2.244s] Invoked command in '/home/palash/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --build /home/palash/pico_ws/build/mav_msgs -- -j16 -l16
+[2.247s] Invoking command in '/home/palash/pico_ws/build/mav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/palash/pico_ws/build/mav_msgs
+[2.254s] -- Install configuration: ""
+[2.255s] -- Execute custom install script
+[2.255s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/ament_index/resource_index/rosidl_interfaces/mav_msgs
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/actuators.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/attitude_thrust.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__functions.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__struct.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__type_support.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__functions.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__struct.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__type_support.h
+[2.256s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__functions.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__struct.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__type_support.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__functions.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__struct.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__type_support.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__functions.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__struct.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__type_support.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__functions.h
+[2.257s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__struct.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__type_support.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__functions.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__struct.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__type_support.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__functions.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__struct.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__type_support.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/filtered_sensor_data.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/gps_waypoint.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rate_thrust.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/roll_pitch_yawrate_thrust.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.258s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/status.h
+[2.259s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/torque_thrust.h
+[2.259s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/library_path.sh
+[2.259s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/library_path.dsv
+[2.259s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__rosidl_typesupport_fastrtps_c.h
+[2.259s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__rosidl_typesupport_fastrtps_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__rosidl_typesupport_introspection_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__rosidl_typesupport_introspection_c.h
+[2.260s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__rosidl_typesupport_introspection_c.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.261s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/actuators.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/attitude_thrust.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__builder.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__struct.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__traits.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__type_support.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__builder.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__struct.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__traits.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__type_support.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__builder.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__struct.hpp
+[2.262s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__traits.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__type_support.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__builder.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__struct.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__traits.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__type_support.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__builder.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__struct.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__traits.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__type_support.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__builder.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__struct.hpp
+[2.263s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__traits.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__builder.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__struct.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__traits.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__builder.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__struct.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__traits.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__type_support.hpp
+[2.264s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/filtered_sensor_data.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/gps_waypoint.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rate_thrust.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/roll_pitch_yawrate_thrust.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/status.hpp
+[2.265s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/torque_thrust.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__rosidl_typesupport_fastrtps_cpp.hpp
+[2.266s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/actuators__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/attitude_thrust__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/filtered_sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/gps_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/rate_thrust__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/roll_pitch_yawrate_thrust__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/mav_msgs/msg/detail/torque_thrust__rosidl_typesupport_introspection_cpp.hpp
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/pythonpath.sh
+[2.267s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/pythonpath.dsv
+[2.268s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs-3.3.3-py3.10.egg-info/PKG-INFO
+[2.268s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs-3.3.3-py3.10.egg-info/SOURCES.txt
+[2.268s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs-3.3.3-py3.10.egg-info/dependency_links.txt
+[2.268s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs-3.3.3-py3.10.egg-info/top_level.txt
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/__init__.py
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/_mav_msgs_s.ep.rosidl_typesupport_c.c
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/_mav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/_mav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/libmav_msgs__rosidl_generator_py.so
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/__init__.py
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_actuators.py
+[2.269s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_actuators_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_attitude_thrust.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_attitude_thrust_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_filtered_sensor_data.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_filtered_sensor_data_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_gps_waypoint.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_gps_waypoint_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_rate_thrust.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_rate_thrust_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_roll_pitch_yawrate_thrust.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_roll_pitch_yawrate_thrust_s.c
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_status.py
+[2.270s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_status_s.c
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_torque_thrust.py
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg/_torque_thrust_s.c
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/mav_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.271s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/Actuators.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/AttitudeThrust.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/FilteredSensorData.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/GpsWaypoint.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/RateThrust.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/RollPitchYawrateThrust.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/Status.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/TorqueThrust.idl
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/Actuators.msg
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/AttitudeThrust.msg
+[2.272s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/FilteredSensorData.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/GpsWaypoint.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/RateThrust.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/RollPitchYawrateThrust.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/Status.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/msg/TorqueThrust.msg
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/ament_index/resource_index/package_run_dependencies/mav_msgs
+[2.273s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/ament_index/resource_index/parent_prefix_path/mav_msgs
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/ament_prefix_path.sh
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/ament_prefix_path.dsv
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/path.sh
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/environment/path.dsv
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/local_setup.bash
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/local_setup.sh
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/local_setup.zsh
+[2.274s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/local_setup.dsv
+[2.274s] -- Symlinking: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/package.dsv
+[2.283s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/ament_index/resource_index/packages/mav_msgs
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/rosidl_cmake-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgsConfig.cmake
+[2.284s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgsConfig-version.cmake
+[2.285s] -- Up-to-date symlink: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/package.xml
+[2.285s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_generator_c.so
+[2.285s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_fastrtps_c.so
+[2.285s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_introspection_c.so
+[2.285s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_c.so
+[2.286s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.286s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_introspection_cpp.so
+[2.286s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_typesupport_cpp.so
+[2.318s] Listing '/home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs'...
+[2.318s] Compiling '/home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/__init__.py'...
+[2.318s] Listing '/home/palash/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages/mav_msgs/msg'...
+[2.322s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/lib/libmav_msgs__rosidl_generator_py.so
+[2.322s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs
+[2.322s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/common.hpp
+[2.322s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/eigen_mav_msgs.hpp
+[2.322s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/default_topics.hpp
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/conversions.hpp
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/include/mav_msgs/default_values.hpp
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_generator_cExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_cExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_generator_cppExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_cppExport.cmake
+[2.324s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/mav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_generator_pyExport.cmake
+[2.324s] -- Up-to-date: /home/palash/pico_ws/install/mav_msgs/share/mav_msgs/cmake/export_mav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.326s] Invoked command in '/home/palash/pico_ws/build/mav_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/palash/Downloads/turtlesim_ws/install/kd_task_1b:/opt/ros/humble /usr/bin/cmake --install /home/palash/pico_ws/build/mav_msgs

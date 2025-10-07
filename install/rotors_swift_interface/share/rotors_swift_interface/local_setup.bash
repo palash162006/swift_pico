@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/rotors_swift_interface/ament_cmake_environment_hooks/local_setup.bash

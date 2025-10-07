@@ -1,0 +1,1 @@
+/home/palash/pico_ws/build/mav_state_machine_msgs/rosidl_generator_c/mav_state_machine_msgs/msg/start_stop_task.h
